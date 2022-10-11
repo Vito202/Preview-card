@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+:root {
+    /* Primary colors */
+    --dark-cyan-color: hsl(158, 36%, 37%);
+    --cream-color: hsl(30, 38%, 92%); 
+    
+    /* Neutral colors */
+    --very-dark-blue-color: hsl(212, 21%, 14%);
+    --dark-gray-color: hsl(228, 12%, 48%);
+    --white-color: hsl(0, 0%, 100%);
+}
+
+.container {
+    background-color: var(--cream-color);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.hidden {
+    visibility: hidden;
+    height: 0;
+}
+
+.box {
+    background-color: white;
+    height: 70vh;
+    width: 90vh;
+    display: flex;
+    flex-direction: row;
+    border-radius: 11px;
+    
+}
+
+.box1 {
+    margin: 20px;
+    background-color: var(--white-color);
+}
+
+.box1 img{
+    height: 65.5vh;
+    width: -50vh;
+    border-radius: 15px;
+}
+
+.text {
+    padding: 20px 46px;
+    display: inline;
+}
+
+.box2 {
+    font-family: 'Montserrat', sans-serif ;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: var(--dark-gray-color);
+
+}
+
+.box3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 700;
+}
+
+.box3 p {
+    color: var(--dark-gray-color);
+    font-size: 10;
+    line-height: 2.0;
+    font-weight: lighter;
+}
+
+.cost {
+    display: grid;
+    grid-template-columns: bottom;
+    padding-bottom: 22px;
+}
+
+.cost1 {
+    font-size: 35px;
+    font-family: 'Fraunces' serif;
+    font-weight: 700;
+    color: var(--dark-cyan-color);
+}
+
+.cost2 {
+   padding-top: 12px;
+   text-decoration: line-through;
+   font-family: 'Montserrat' serif;
+   color: var(--dark-gray-color); 
+}
+
+.button {
+    background-color: var(--dark-cyan-color);
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    color: var(--white-color);
+    font-family: 'Montserrat' serif;
+    border-radius: 11px;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+}
+
+.button p{
+    margin-right: 20px;
+}
+
+svg {
+    padding: 16px;
+    padding-left: 5px;
+    height: 2vh;
+    width: 2.5vh;
+}
